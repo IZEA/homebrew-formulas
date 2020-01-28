@@ -1,4 +1,4 @@
-class SolrAT55 < Formula
+class Solrat55 < Formula
   desc "Enterprise search platform from the Apache Lucene project"
   homepage "https://lucene.apache.org/solr/"
   url "https://www.apache.org/dyn/closer.cgi?path=lucene/solr/5.5.4/solr-5.5.4.tgz"
