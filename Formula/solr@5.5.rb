@@ -6,7 +6,7 @@ class SolrAT55 < Formula
   sha256 "c1528e4afc9a0b8e7e5be0a16f40bb4080f410d502cd63b4447d448c49e9f500"
   bottle :unneeded
   # keg_only :versioned_formula
-  depends_on :java
+  depends_on "openjdk@8"
   skip_clean "example/logs"
   def install
     bin.install %w[bin/solr bin/post bin/oom_solr.sh]
