@@ -4,7 +4,6 @@ class SolrAT55 < Formula
   url "https://www.apache.org/dyn/closer.cgi?path=lucene/solr/5.5.4/solr-5.5.4.tgz"
   mirror "https://archive.apache.org/dist/lucene/solr/5.5.4/solr-5.5.4.tgz"
   sha256 "c1528e4afc9a0b8e7e5be0a16f40bb4080f410d502cd63b4447d448c49e9f500"
-  bottle :unneeded
   # keg_only :versioned_formula
   depends_on "openjdk@8"
   skip_clean "example/logs"
